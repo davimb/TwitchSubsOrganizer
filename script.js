@@ -12,13 +12,13 @@ function entrada2saida() {
             for(let y=0; y<stringmeio.length; y++) {
 
                 if (stringmeio[y] == ',') {
-                    stringmeio = "";
                     break;
                 }
 
                 stringsaida += stringmeio[y];
             }
             stringsaida += '\n'
+            stringmeio = "";
             continue;
         }
         
